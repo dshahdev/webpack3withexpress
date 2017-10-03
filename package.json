@@ -1,0 +1,21 @@
+{
+  "name": "webpack3withexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "http-proxy-middleware": "^0.17.4",
+    "lodash": "^4.17.4"
+  }
+}
