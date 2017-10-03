@@ -1,2 +1,2 @@
-# webpack3withexpress
-webpack 3 + TypeScript served with Express prototype
+# Webpack 3 + TypeScript served with Express Prototype
+Webpack 3 + TypeScript served with Express Prototype
