@@ -5,7 +5,7 @@ express = require("express");
 var proxy = require('http-proxy-middleware');
 
 var DIST_DIR = path.join(__dirname, "dist"),  
-PORT = 5000,
+PORT = process.env.GVS_WEBSITE_PORT,
 app = express();
 
 //Serving the files on the dist folder       // "express-http-proxy": "^1.0.7",
